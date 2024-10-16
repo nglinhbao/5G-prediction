@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', function () {
     var locationModal = document.getElementById("locationModal");
     var sectorModal = document.getElementById("sectorModal");
 
-    var locationMarker = document.getElementById("locationMarker");
+    var locationMarker = document.getElementById("locationDemo");
     var sectorInfo = document.getElementById("sectorInfo");
 
     var closeButtons = document.getElementsByClassName("close");
