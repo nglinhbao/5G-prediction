@@ -172,8 +172,7 @@ function handlePredictionResponse(rawPerformanceVal, normalizedPerformanceVal, s
             sectorId = "Unknown";  // Handle unexpected values
     }
 
-    // Increment siteId by 1
-    siteId = parseInt(siteId) + 1;
+    siteId = parseInt(siteId);
 
     // Update the result display in the HTML with the predicted values
     document.getElementById('rawPredictedPerformance').textContent = rawPerformanceVal;
