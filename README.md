@@ -18,12 +18,8 @@ This project leverages machine learning models to predict 5G network performance
    ```bash
    pip3 install -r requirements.txt
    ```
-
-3. **Run Flask Application**:
-   Start the Flask app by executing:
-   ```bash
-   python3 flask_app.py
-   ```
+3. **Run Live Web**:
+   Open the frontend HTML file in your browser or host it on a local server.
 
 4. **Modify CORS Configuration**:
    Ensure that the Flask backend allows requests from the live web interface by modifying the `CORS` setup:
@@ -44,9 +40,13 @@ This project leverages machine learning models to predict 5G network performance
    })
    ```
    Replace `<<Your Flask Backend IP Address>>` with the actual address of your Flask server.
+   
+6. **Run Flask Application**:
+   Start the Flask app by executing:
+   ```bash
+   python3 flask_app.py
+   ```
 
-6. **Run Live Web**:
-   Open the frontend HTML file in your browser or host it on a local server. Ensure the frontend makes requests to the Flask backend with the updated IP address.
 
 ### Dataset
 
