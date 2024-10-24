@@ -1,4 +1,4 @@
-# 5G Network Quality Prediction System
+# 5G Network Prediction System
 
 ## Overview
 
