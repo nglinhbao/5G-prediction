@@ -59,10 +59,10 @@ This project leverages machine learning models to predict 5G network performance
 
 ### Group Members
 
-- **Dang Khoa Le**
 - **BAO Nguyen**
 - **Nguyen Hung Nguyen**
 - **Trung Kien Nguyen**
+- **Dang Khoa Le**
 - **Saw Ko Ko Oo**
 
 ## Features
